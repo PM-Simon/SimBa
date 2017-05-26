@@ -1,0 +1,75 @@
+body {
+  background-color:#C9C9C5;
+  height:100vh;
+  min-width: 500px;
+  min-height: 300px;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 25%;
+  border-bottom: #294D5B solid 1px;
+}
+
+h1 {
+  font-size:53px;
+  position: absolute;
+  margin: 0;
+  z-index: 3;
+  color: #294D5B
+
+}
+
+#logo {
+  position: absolute;
+  z-index: 2;
+  top:58px;
+  left:18%;
+}
+
+#SimBa, #Vermessungsbüro, #SimonPartner, #namen, #Dip {
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: none;
+  color: #294D5B;
+}
+
+#balken {
+  position: absolute;
+  height: 57px;
+  width: 100vw;
+  top: 60px;
+
+}
+
+#SimBa {
+  left: 4%;
+}
+
+#Vermessungsbüro {
+  left: 25%;
+}
+
+#namen {
+  position: absolute;
+  left:4%;
+  top: 87px;
+}
+
+#SimonPartner {
+  position: absolute;
+  left: 25%;
+  top: 35px;
+}
+
+#Dip {
+  position: absolute;
+  left: 25%;
+  top: 87px
+}
+
+#tabs {
+  position:absolute;
+  top: 195px;
+  right: 10%;
+}

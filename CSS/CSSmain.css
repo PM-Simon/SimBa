@@ -1,3 +1,7 @@
+* {
+  border: black solid 1px;
+}
+
 body {
   height:100vh;
   min-width: 500px;
@@ -8,7 +12,6 @@ body {
 header {
   position: relative;
   height: 25%;
-  background-color: red;
 }
 
 div {

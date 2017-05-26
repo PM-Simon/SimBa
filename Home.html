@@ -4,18 +4,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SimBa Vermessungsbüro</title>
-  <link rel="stylesheet" href="theme.min.css">
-  <link rel="stylesheet" href="CSSmain.css">
+  <link rel="stylesheet" href="CSS/theme.min.css">
+  <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
   <header>
-    <div>
-      <h3 id="SimBa">SimBa</h3>
-      <h3 id="Vermessungsbüro">Vermessungsbüro</h3>
+    <img id ="logo" src="Medien/logo.gif">
+    <img id="balken" src="Medien/Balken.png">
+
+    <div id="balken">
+      <h1 id="SimBa">SimBa</h3>
+      <h1 id="Vermessungsbüro">Vermessungsbüro</h3>
+      <p id="namen">Michael Simon <br> Gerd Buchhorn</p>
+      <h2 id="SimonPartner">Simon&Partner</h2>
+      <p id="Dip">(Dip.-Ing., VDV,VSVI)</p>
+
+    </div>
+
+    <!-- Tabs -->
+    <div id="tabs">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Submenu 1-1</a></li>
+              <li><a href="#">Submenu 1-2</a></li>
+              <li><a href="#">Submenu 1-3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+      </ul>
     </div>
   </header>
+
 
   <main>
   </main>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </html>
