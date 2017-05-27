@@ -43,7 +43,7 @@ h1 {
 }
 
 #SimBa {
-  left: 4%;
+  left: 5%;
 }
 
 #Vermessungsbüro {
@@ -52,7 +52,7 @@ h1 {
 
 #namen {
   position: absolute;
-  left:4%;
+  left:5%;
   top: 87px;
 }
 
@@ -71,5 +71,5 @@ h1 {
 #tabs {
   position:absolute;
   top: 195px;
-  right: 10%;
+  right: 5%;
 }
