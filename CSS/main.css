@@ -1,15 +1,18 @@
 body {
-  background-color:#C9C9C5;
+
   height:100vh;
   min-width: 500px;
   min-height: 300px;
   margin: 0;
 }
 
+
 header {
+  background-color:#C9C9C5;
   position: relative;
-  height: 25%;
-  border-bottom: #294D5B solid 1px;
+  height: 239px;
+
+
 }
 
 h1 {
@@ -24,7 +27,7 @@ h1 {
 #logo {
   position: absolute;
   z-index: 2;
-  top:58px;
+  top:41px;
   left:18%;
 }
 
@@ -38,7 +41,7 @@ h1 {
   position: absolute;
   height: 57px;
   width: 100vw;
-  top: 60px;
+  top: 43px;
 
 }
 
@@ -72,4 +75,50 @@ h1 {
   position:absolute;
   top: 195px;
   right: 5%;
+}
+
+main {
+  height:50%;
+  width: 100vw;
+  border-top: #294D5B solid 1px;
+  border-bottom: #294D5B solid 1px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.text {
+  color: black;
+  text-shadow: none;
+}
+
+#content {
+  height:100%;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+aside {
+  float: right;
+  height:58%;
+  width: 15%;
+}
+
+#messgerät {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+
+}
+
+footer {
+  background-color: red;
+  margin-left: 50px;
+
+}
+
+#impressum, #links {
+  font-size: 13px;
+  color: #294D5B;
+
 }
