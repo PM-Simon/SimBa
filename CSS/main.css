@@ -1,5 +1,5 @@
 body {
-  min-width: 1000px;
+  min-width: 1100px;
 }
 header {
 
@@ -94,9 +94,11 @@ main {
 }
 
 aside {
-  float: right;
+  float: left;
   height:40%;
   width: 15%;
+  display: flex;
+  align-items: center;
 }
 
 #messgerät {
@@ -125,7 +127,11 @@ footer {
 #links {
   margin-top:0px;
   position: absolute;
-  right:0px;
+  right:6%;
   top: 0px;
+}
 
+#impressum {
+  position: absolute;
+  left: 6%;
 }
